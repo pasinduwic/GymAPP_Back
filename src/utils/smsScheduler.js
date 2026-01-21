@@ -39,7 +39,7 @@ const sendPaymentDueSMS = async () => {
       }
 
       const smsUrl = `https://app.notify.lk/api/v1/send?
-                      user_id=29081&api_key=5NQPpqHnWGUmjtKjBecH&sender_id=SD Fitness&to=${phoneNumber}
+                      user_id=29081&api_key=jfgujg&sender_id=SD Fitness&to=${phoneNumber}
                       &message=Reminder!!!%0A%0AYour membership of membership number ${client.clientNo} will expire tomorrow. Please make the payment and renew the membership.%0A%0AThank you!`;
 
       try {
