@@ -2,7 +2,7 @@ import { MongoClient } from "mongodb";
 
 // Replace with your MongoDB Atlas connection string
 const uri =
-  "mongodb+srv://pasinduw:pasiD%40nc12345@psd1st.wtff6.mongodb.net/GymManagementSystem?retryWrites=true&w=majority";
+  "mongodb+srv://1st.wtff6.mongodb.net/GymManagementSystem?retryWrites=true&w=majority";
 
 async function copyCollection() {
   const client = new MongoClient(uri);
